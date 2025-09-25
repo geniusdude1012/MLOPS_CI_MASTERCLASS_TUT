@@ -30,4 +30,4 @@ def test_fifth_power():
 # Test for invalid input
 def test_invalid_input():
     with pytest.raises(TypeError):
-        square("string")
+        square("string input")
